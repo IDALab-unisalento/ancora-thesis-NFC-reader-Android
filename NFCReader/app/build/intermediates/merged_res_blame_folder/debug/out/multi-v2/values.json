@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/samueleancora/AndroidStudioProjects/NFCReader/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "4,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "145,59",
+                        "endColumns": "54,84",
+                        "endOffsets": "195,139"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,84",
+                        "endOffsets": "105,190"
+                    }
+                }
+            ]
+        }
+    ]
+}

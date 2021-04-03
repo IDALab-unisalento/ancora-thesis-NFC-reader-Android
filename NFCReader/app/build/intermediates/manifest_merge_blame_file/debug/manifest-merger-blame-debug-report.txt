@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.helloworld.nfc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:8:5-66
+11-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:8:22-63
+12    <uses-permission android:name="android.permission.NFC" />
+12-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:10:5-62
+12-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:10:22-59
+13
+14    <uses-feature
+14-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:11:2-78
+15        android:name="android.hardware.nfc"
+15-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:11:16-51
+16        android:required="true" />
+16-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:11:52-75
+17
+18    <application
+18-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:13:5-30:19
+19        android:debuggable="true"
+20        android:icon="@drawable/ic_launcher"
+20-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:14:9-45
+21        android:label="@string/app_name"
+21-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:15:9-41
+22        android:testOnly="true" >
+23        <activity
+23-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:16:9-29:20
+24            android:name="com.helloworld.nfc.NFCReader"
+24-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:17:13-38
+25            android:label="@string/app_name" >
+25-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:18:13-45
+26            <intent-filter>
+26-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:19:13-25:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:20:17-69
+27-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:20:25-66
+28                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+28-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:21:17-77
+28-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:21:25-74
+29                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+29-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:22:17-76
+29-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:22:25-74
+30
+31                <category android:name="android.intent.category.DEFAULT" />
+31-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:23:17-76
+31-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:23:27-73
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:24:17-77
+32-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34
+35            <meta-data
+35-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:27:13-28:59
+36                android:name="android.nfc.action.TECH_DISCOVERED"
+36-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:27:24-73
+37                android:resource="@xml/nfc_tech_filter" />
+37-->/Users/samueleancora/AndroidStudioProjects/NFCReader/app/src/main/AndroidManifest.xml:28:17-56
+38        </activity>
+39    </application>
+40
+41</manifest>

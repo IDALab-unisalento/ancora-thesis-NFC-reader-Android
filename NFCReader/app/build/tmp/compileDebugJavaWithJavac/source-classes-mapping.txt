@@ -1,0 +1,4 @@
+com/helloworld/nfc/BuildConfig.java
+ com.helloworld.nfc.BuildConfig
+com/helloworld/nfc/NFCReader.java
+ com.helloworld.nfc.NFCReader
